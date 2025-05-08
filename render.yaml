@@ -4,7 +4,7 @@ services:
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/Siddwap/text-leech-bot-sep-2024
+    repo: https://github.com/Siddwap/Master-uploader/
     branch: main
     autoDeploy: false
     envVars:
@@ -14,7 +14,7 @@ services:
         sync: false
       - key: API_HASH
         sync: false
-      - key: WEBHOOK
+      - key: AUTH_USERS
         sync: false
       - key: PORT
         value: 8000  # Default port value, update if needed
